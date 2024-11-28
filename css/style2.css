@@ -1,0 +1,22 @@
+.input-group{
+    margin: 15px;
+}
+body{
+    background-color: brown;
+}
+.name{
+    background-color: yellow;
+}
+button{
+    background-color: #000;
+    color: white;
+    width:80px;
+    height: 55px;
+    font-size: 20px;
+}
+button:hover{
+    cursor: pointer;
+}
+h1, .name h2{
+    background-color: rgb(88, 88, 215);
+}

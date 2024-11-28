@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Data Form | Mohamed Saad</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Personal Data</h1>
+        <form action="index.html" method="post">
+            <div class="name">
+                <h2>Your Name</h2> 
+                <div class="input-group">
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname" id="firstname" placeholder="ex ahmed" required/>
+                </div>
+                <div class="input-group">
+                    <label for="secondname">Second Name</label>
+                    <input type="text" name="secondname" id="secondname" placeholder="ex bahnasy" required/>
+                </div>
+            </div>
+            <div class="input-group">
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" required/>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required/>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" minlength="8" maxlength="16" required/>
+            </div>
+            <div class="input-group">
+                <label for="repassword">Re-Password</label>
+                <input type="password" name="repassword" id="repassword" minlength="8" maxlength="16" required/>
+            </div>
+            <div class="input-group gender-box">
+                <div class="gender-option">
+                    <input type="radio" id="male" name="gender"/>
+                    <label for="male">Male</label>
+                </div>
+                <div class="gender-option">
+                    <input type="radio" id="female" name="gender"/>
+                    <label for="female">Female</label>
+                </div>
+            </div>
+            <div class="input-group student-type-box">
+                <div class="student-option">
+                    <input type="checkbox" id="student" name="studenttype"/>
+                    <label for="student">Student</label>
+                </div>
+                <div class="student-option">
+                    <input type="checkbox" id="graduated" name="studenttype"/>
+                    <label for="graduated">Graduated</label>
+                </div>
+            </div>
+            <div>
+                <label for="university">University</label>
+                <select name="university" id="university">
+                    <optgroup label="National">
+                        <option value="1">Benha National Universiy</option>
+                        <option value="2">Assuit National Universiy</option>
+                    </optgroup>
+                    <optgroup label="Governmental">
+                        <option value="3">BFCAI</option>
+                        <option value="4">CAI</option>
+                    </optgroup>
+                </select>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <a href="home.html">Login</a>
+
+</body>
+</html>

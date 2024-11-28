@@ -1,0 +1,31 @@
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+.home-img img{
+    width:100%;
+    border-radius: 8px;
+    height:400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    color:#C62E2E;
+}
+.av{
+    font-weight: bold;
+}
+.preparation{
+    background-color: #ffccea42;
+}
+.pre-ing{
+    border-bottom: 1px solid #000;
+}
+.untrition table tr{
+    border-bottom: 1px solid #000;
+}
+.td-c{
+    color:#C62E2E;
+}
+
